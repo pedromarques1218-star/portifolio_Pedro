@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mars Gallery — Pedro H. Marques</title>
+  <meta name="description" content="Case study do app de leilão de arte Mars Gallery. UX Design por Pedro Henrique Marques.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .case-hero__label, .case-section__label { color: var(--color-mars); }
+    .case-hero__title, .case-section__title { color: var(--color-mars); }
+  </style>
+</head>
+<body class="case-page">
+
+  <!-- Navigation -->
+  <header class="navbar scrolled" role="banner">
+    <a href="index.html" class="nav-logo" aria-label="Página inicial">PHM</a>
+    <button class="nav-hamburger" aria-label="Menu" aria-expanded="false" aria-controls="nav-menu">
+      <span></span><span></span><span></span>
+    </button>
+    <nav id="nav-menu" role="navigation" aria-label="Principal">
+      <ul class="nav-links">
+        <li><a href="index.html#trabalhos">Trabalhos</a></li>
+        <li><a href="Pedro Henrique_Marques Da Costa_Curriculo.docx.pdf" download>Currículo</a></li>
+        <li><a href="index.html#sobre">Sobre mim</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Back -->
+    <a href="index.html#trabalhos" class="case-back" aria-label="Voltar para trabalhos">&larr; Voltar</a>
+
+    <!-- Hero -->
+    <section class="case-hero" aria-label="Introdução do projeto">
+      <p class="case-hero__label fade-in">Case Study &mdash; App Mobile</p>
+      <h1 class="case-hero__title fade-in">Mars Gallery</h1>
+      <p class="case-hero__subtitle fade-in">Criando uma experiência intuitiva e acolhedora de leilão de arte para pessoas que nunca participaram de um.</p>
+    </section>
+
+    <!-- Hero Image -->
+    <div class="case-hero-image fade-in">
+      <img src="1GALERIA/Captura de tela 2026-09-07 222924.png" alt="Tela inicial do app Mars Gallery mostrando três leilões: Van Gogh, Da Vinci e Arte Indígena">
+    </div>
+
+    <!-- Meta Tags -->
+    <div class="case-meta fade-in">
+      <span class="case-meta__tag">UX Designer</span>
+      <span class="case-meta__tag">App Mobile</span>
+      <span class="case-meta__tag">Figma</span>
+      <span class="case-meta__tag">6 meses (Set 2024 – Mar 2025)</span>
+    </div>
+
+    <!-- 01. Meu Papel -->
+    <section class="case-section fade-in" aria-label="Meu papel">
+      <p class="case-section__label">01 &mdash; Visão Geral</p>
+      <h2 class="case-section__title">Meu Papel como Designer</h2>
+      <div class="case-grid case-grid--sidebar">
+        <div>
+          <p class="case-section__text">Atuei como UX Designer responsável por todo o processo de design do Mars Gallery App — um aplicativo de leilão de arte para a galeria Mar's, voltado a pessoas que desejam se cercar de arte e decorar suas casas.</p>
+          <p class="case-section__text">O projeto foi desenvolvido ao longo de 6 meses como parte do Google UX Design Certificate e representou meu primeiro design de aplicativo mobile.</p>
+        </div>
+        <div>
+          <div class="case-info-card">
+            <h4>Responsabilidades</h4>
+            <p>User Research &bull; Arquitetura de Informação &bull; Wireframing &bull; Prototipação &bull; Testes de Usabilidade &bull; UI Design &bull; Design System</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 02. Objetivo -->
+    <section class="case-section fade-in" aria-label="Objetivo">
+      <p class="case-section__label">02 &mdash; O Desafio</p>
+      <h2 class="case-section__title">Objetivo</h2>
+      <p class="case-section__text">O público-alvo não era familiarizado com aplicativos de leilão e poderia se sentir perdido durante a jornada. O objetivo era criar uma <strong>experiência intuitiva e agradável</strong> que ajudasse os usuários a se familiarizarem rapidamente com a plataforma, proporcionando um ambiente acolhedor para novatos.</p>
+    </section>
+
+    <!-- 03. Público-Alvo -->
+    <section class="case-section fade-in" aria-label="Público-alvo">
+      <p class="case-section__label">03 &mdash; Público-Alvo</p>
+      <h2 class="case-section__title">Entendendo o Usuário</h2>
+      <p class="case-section__text">A pesquisa revelou que o grupo-alvo possuía uma forte conexão com arte de diversas formas, mas a maioria nunca havia participado de um leilão. Suas motivações principais eram o impacto emocional das obras e o desejo de decorar a casa como expressão de identidade.</p>
+
+      <!-- Pain Points -->
+      <div class="case-painpoints">
+        <div class="case-painpoint fade-in">
+          <p class="case-painpoint__number">01</p>
+          <h4>Desconexão</h4>
+          <p>Não entendem o significado da obra e perdem o interesse rapidamente.</p>
+        </div>
+        <div class="case-painpoint fade-in">
+          <p class="case-painpoint__number">02</p>
+          <h4>Poluição Visual</h4>
+          <p>Múltiplas obras na tela criam excesso de informação e confusão.</p>
+        </div>
+        <div class="case-painpoint fade-in">
+          <p class="case-painpoint__number">03</p>
+          <h4>Impaciência</h4>
+          <p>Falta de pesquisa direcionada frustra quem já tem um gosto definido.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 04. Persona -->
+    <section class="case-section fade-in" aria-label="Persona">
+      <p class="case-section__label">04 &mdash; Personas</p>
+      <h2 class="case-section__title">Persona: Clarice</h2>
+      <figure class="case-img case-img--bordered case-img--shadow">
+        <img src="1GALERIA/Captura de tela 2026-09-07 222604.png" alt="Persona Clarice: 44 anos, desenvolvedora senior, Rio de Janeiro, daltônica. Quote: Se a arte não gera sentimentos e emoções ela não tem propósito." loading="lazy">
+      </figure>
+      <blockquote class="case-quote">"Se a arte não gera sentimentos e emoções ela não tem propósito."</blockquote>
+      <p class="case-section__text">Clarice, 44 anos, é desenvolvedora senior no Rio de Janeiro. Independente e pragmática, busca um novo hobby longe do trabalho para aproveitar com sua esposa. Um detalhe crucial: Clarice é daltônica — o que direcionou decisões importantes de acessibilidade no projeto.</p>
+    </section>
+
+    <!-- 05. Pesquisa -->
+    <section class="case-section fade-in" aria-label="Pesquisa">
+      <p class="case-section__label">05 &mdash; Pesquisa</p>
+      <h2 class="case-section__title">Estudo de Pesquisa</h2>
+      <p class="case-section__text">Realizei entrevistas com usuários para compreender como pessoas sem experiência em leilões interagiriam com o aplicativo. As descobertas foram organizadas em mapas de afinidade e um mapa de jornada do usuário.</p>
+
+      <!-- User Journey Map -->
+      <figure class="case-img case-img--bordered case-img--shadow fade-in">
+        <img src="1GALERIA/Captura de tela 2026-09-07 222654.png" alt="Mapa de jornada da persona Clarice: desde acessar o app, olhar catálogo, ler informações, esperar o leilão até participar. Sentimentos vão de tédio a determinação." loading="lazy">
+        <figcaption>Mapa de jornada do usuário — Persona Clarice</figcaption>
+      </figure>
+
+      <!-- Affinity Maps -->
+      <h3 style="font-family:var(--font-title);font-size:1.3rem;margin-top:48px;color:var(--color-mars);">Mapas de Afinidade</h3>
+      <p class="case-section__text">Os testes de usabilidade foram sintetizados em mapas de afinidade organizados por tela, revelando padrões de comportamento e oportunidades de melhoria.</p>
+
+      <div class="case-grid case-grid--2 fade-in">
+        <figure class="case-img case-img--bordered">
+          <img src="1GALERIA/Captura de tela 2026-09-07 221846.png" alt="Mapa de afinidade: tela inicial e tela do lote — feedback sobre CTA, apresentação de obras e navegação" loading="lazy">
+          <figcaption>Tela inicial / Tela do lote</figcaption>
+        </figure>
+        <figure class="case-img case-img--bordered">
+          <img src="1GALERIA/Captura de tela 2026-09-07 221852.png" alt="Mapa de afinidade: tela da obra — feedback sobre confirmação de lance, ênfase no lance prévio e informações das obras" loading="lazy">
+          <figcaption>Tela da obra</figcaption>
+        </figure>
+      </div>
+
+      <div class="case-grid case-grid--2 fade-in">
+        <figure class="case-img case-img--bordered">
+          <img src="1GALERIA/Captura de tela 2026-09-07 221906.png" alt="Mapa de afinidade: tela do leilão — feedback sobre menu lateral, chat para participantes e disposição dos elementos" loading="lazy">
+          <figcaption>Tela do leilão</figcaption>
+        </figure>
+        <figure class="case-img case-img--bordered">
+          <img src="1GALERIA/Captura de tela 2026-09-07 221857.png" alt="Mapa de afinidade: fluxo de user — todos os participantes seguiram o mesmo fluxo: tela inicial, lote, peça, agenda, leilão" loading="lazy">
+          <figcaption>Fluxo do usuário</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- 06. Conceitos -->
+    <section class="case-section fade-in" aria-label="Conceitos iniciais">
+      <p class="case-section__label">06 &mdash; Processo &amp; Conceitos</p>
+      <h2 class="case-section__title">Conceitos Iniciais de Design</h2>
+      <p class="case-section__text">Com base nos insights da pesquisa, as decisões de design se orientaram por três princípios: reduzir a poluição visual para dar protagonismo às obras, criar um fluxo claro da seleção ao lance, e oferecer ferramentas de acessibilidade para usuários daltônicos como a persona Clarice.</p>
+
+      <div class="case-highlight">
+        <h4>Decisões-chave</h4>
+        <ul>
+          <li><strong>Banner de destaque</strong> — o próximo leilão em evidência na home para captar atenção imediata</li>
+          <li><strong>Lance prévio</strong> — permitir participação antes do leilão para aumentar engajamento</li>
+          <li><strong>Botão "agendar leilão"</strong> — notificação de lembrete para reduzir ansiedade de espera</li>
+          <li><strong>Imagens em full-bleed</strong> — arte como protagonista do design visual</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 07. Wireframes -->
+    <section class="case-section fade-in" aria-label="Wireframes">
+      <p class="case-section__label">07 &mdash; Wireframes &amp; Esboços</p>
+      <h2 class="case-section__title">Wireframes &amp; Esboços</h2>
+
+      <h3 style="font-family:var(--font-title);font-size:1.2rem;margin-bottom:16px;color:var(--color-mars);">Esboços de Papel</h3>
+      <p class="case-section__text">Explorei cinco variações de wireframes em papel — três para a tela inicial e duas para a tela de detalhe da obra — buscando combinar as melhores ideias para o layout final.</p>
+
+      <div class="case-grid case-grid--2 fade-in">
+        <figure class="case-img case-img--bordered">
+          <img src="1GALERIA/Captura de tela 2026-09-07 222810.png" alt="Wireframe de papel: tela inicial do app com banner, cards de lotes e barra de navegação" loading="lazy">
+          <figcaption>Wireframe de papel — Tela inicial</figcaption>
+        </figure>
+        <figure class="case-img case-img--bordered">
+          <img src="1GALERIA/Captura de tela 2026-09-07 222822.png" alt="Wireframe de papel: tela de detalhe da obra com imagem, informações e botão Lance" loading="lazy">
+          <figcaption>Wireframe de papel — Detalhe da obra</figcaption>
+        </figure>
+      </div>
+
+      <h3 style="font-family:var(--font-title);font-size:1.2rem;margin-top:48px;margin-bottom:16px;color:var(--color-mars);">Wireframes Digitais</h3>
+      <p class="case-section__text">Os wireframes digitais refinaram a estrutura: a home page apresenta um banner do próximo leilão seguido de lotes à venda. A tela de produto detalha a imagem, conceito, história, proporções e data, com CTAs de agendamento e lance prévio.</p>
+
+      <figure class="case-img case-img--bordered case-img--shadow fade-in" style="max-width:400px;margin-left:auto;margin-right:auto;">
+        <img src="1GALERIA/Captura de tela 2026-09-07 222843.png" alt="Wireframe digital: tela de detalhe da obra com imagem placeholder, conceito e história, proporções, data e hora, botões agendar leilão e Lance prévio" loading="lazy">
+        <figcaption>Wireframe digital — Detalhe da obra</figcaption>
+      </figure>
+    </section>
+
+    <!-- 08. Protótipo Low-Fi -->
+    <section class="case-section fade-in" aria-label="Prototipação">
+      <p class="case-section__label">08 &mdash; Prototipação</p>
+      <h2 class="case-section__title">Protótipo de Baixa Fidelidade</h2>
+      <p class="case-section__text">O protótipo conectou todas as telas do fluxo principal: da home ao catálogo, passando por lotes, peças individuais, lance prévio, filtros, agenda, agendamento, calendário e tela de confirmação. O objetivo era criar uma experiência imersiva que simulasse um leilão real.</p>
+
+      <figure class="case-img case-img--shadow fade-in">
+        <img src="1GALERIA/Captura de tela 2026-09-07 222853.png" alt="Protótipo de baixa fidelidade no Figma mostrando todas as telas conectadas: home, catálogo, lote, peça, lance prévio, filtro, agenda, agendamento, confirmação" loading="lazy">
+        <figcaption>Protótipo low-fidelity no Figma — Fluxo completo</figcaption>
+      </figure>
+    </section>
+
+    <!-- 09. Testes -->
+    <section class="case-section fade-in" aria-label="Testes de usabilidade">
+      <p class="case-section__label">09 &mdash; Testes de Usabilidade</p>
+      <h2 class="case-section__title">Resultados dos Testes</h2>
+      <p class="case-section__text">O projeto contou com duas rodadas de testes de usabilidade, permitindo iterar significativamente o design entre cada fase.</p>
+
+      <h3 style="font-family:var(--font-title);font-size:1.2rem;margin-top:32px;color:var(--color-mars);">Rodada 1</h3>
+      <div class="case-findings fade-in">
+        <div class="case-finding">
+          <p class="case-finding__number">01</p>
+          <h4>Tela de confirmação</h4>
+          <p>Usuários querem ver uma tela de confirmação ao dar lances, para segurança e confiança.</p>
+        </div>
+        <div class="case-finding">
+          <p class="case-finding__number">02</p>
+          <h4>Títulos e informações</h4>
+          <p>Usuários precisam de mais títulos e informações para ajudar na escolha da peça correta.</p>
+        </div>
+        <div class="case-finding">
+          <p class="case-finding__number">03</p>
+          <h4>Lance prévio</h4>
+          <p>O lance prévio precisa ser mais proeminente no design — estava passando despercebido.</p>
+        </div>
+      </div>
+
+      <h3 style="font-family:var(--font-title);font-size:1.2rem;margin-top:48px;color:var(--color-mars);">Rodada 2</h3>
+      <div class="case-findings fade-in">
+        <div class="case-finding">
+          <p class="case-finding__number">01</p>
+          <h4>Responsividade</h4>
+          <p>Adaptar o design para funcionar bem em diferentes tamanhos de tela.</p>
+        </div>
+        <div class="case-finding">
+          <p class="case-finding__number">02</p>
+          <h4>Interação e visual</h4>
+          <p>Adicionar features de interação e aspectos visuais para enriquecer a experiência.</p>
+        </div>
+        <div class="case-finding">
+          <p class="case-finding__number">03</p>
+          <h4>Engajamento</h4>
+          <p>Design intencional para manter os usuários engajados por mais tempo na plataforma.</p>
+        </div>
+      </div>
+
+      <!-- SUS Scores -->
+      <figure class="case-img case-img--bordered fade-in" style="margin-top:48px;">
+        <img src="1GALERIA/Captura de tela 2026-09-07 221901.png" alt="Escala de usabilidade do sistema (SUS): Participante A: 40/50, B: 45/50, C: 47/50, D: 43/50, E: 45/50" loading="lazy">
+        <figcaption>Pontuações da Escala de Usabilidade do Sistema (SUS)</figcaption>
+      </figure>
+    </section>
+
+    <!-- 10. Solução Final -->
+    <section class="case-section fade-in" aria-label="Solução final">
+      <p class="case-section__label">10 &mdash; A Solução</p>
+      <h2 class="case-section__title">Mockups &amp; Protótipo de Alta Fidelidade</h2>
+      <p class="case-section__text">Após as duas rodadas de testes, o design visual focou em fazer as imagens das obras se destacarem, minimizar distrações e criar uma linguagem visual imersiva que transmitisse elegância e os valores da marca.</p>
+
+      <div class="case-phones fade-in">
+        <img src="1GALERIA/Captura de tela 2026-09-07 222924.png" alt="Mockup: tela inicial com leilões Van Gogh, Da Vinci e Indígena" loading="lazy">
+        <img src="1GALERIA/Captura de tela 2026-09-07 222930.png" alt="Mockup: tela do lote Van Gogh com A Noite Estrelada como lote principal" loading="lazy">
+        <img src="1GALERIA/Captura de tela 2026-09-07 222936.png" alt="Mockup: tela de detalhe A Noite Estrelada com conceito, história, proporções e botão Lance Prévio" loading="lazy">
+        <img src="1GALERIA/Captura de tela 2026-09-07 222941.png" alt="Mockup: tela de lance com campo de valor e botão Lance" loading="lazy">
+      </div>
+
+      <p class="case-section__text" style="margin-top:32px;">Uma iteração importante foi o aumento do tamanho das obras nas telas e a implementação de um sistema de swipe para navegar entre peças — resultado direto do feedback da segunda rodada de testes.</p>
+
+      <!-- Hi-fi prototype -->
+      <figure class="case-img case-img--shadow fade-in" style="margin-top:40px;">
+        <img src="1GALERIA/Captura de tela 2026-09-07 222948.png" alt="Protótipo de alta fidelidade no Figma mostrando todas as telas conectadas com design visual final" loading="lazy">
+        <figcaption>Protótipo de alta fidelidade no Figma</figcaption>
+      </figure>
+    </section>
+
+    <!-- 11. Conclusões -->
+    <section class="case-section fade-in" aria-label="Conclusões">
+      <p class="case-section__label">11 &mdash; Reflexão</p>
+      <h2 class="case-section__title">Conclusões &amp; Aprendizados</h2>
+
+      <div class="case-grid case-grid--2">
+        <div class="case-highlight">
+          <h4>Impacto</h4>
+          <p>O design foi testado por pessoas de diferentes faixas etárias, todas chegando à mesma conclusão: o design é intuitivo e simples, permitindo que qualquer pessoa navegue a jornada sem interrupções ou pontos de dor, independentemente da experiência com apps.</p>
+        </div>
+        <div class="case-highlight">
+          <h4>O que aprendi</h4>
+          <p>Este foi meu primeiro design de app. Aprendi sobre trabalhar com telas menores e organizar informação de forma concisa mas com qualidade. Também ganhei conhecimentos valiosos sobre tecnologia assistiva, tornando esta uma experiência verdadeiramente enriquecedora.</p>
+        </div>
+      </div>
+
+      <div class="case-highlight" style="margin-top:24px;">
+        <h4>Acessibilidade</h4>
+        <ul>
+          <li><strong>Screen readers</strong> — adaptação do app para leitores de tela</li>
+          <li><strong>WCAG e daltonismo</strong> — guidelines de cores para que pessoas daltônicas como Clarice naveguem sem problemas</li>
+          <li><strong>Legendas</strong> — closed captions para deficientes auditivos durante o leilão ao vivo</li>
+        </ul>
+      </div>
+
+      <div class="case-highlight" style="margin-top:24px;">
+        <h4>Próximos passos</h4>
+        <ul>
+          <li>Lançar o aplicativo na Play Store e App Store</li>
+          <li>Criar flyers e anúncios na própria galeria para informar clientes existentes</li>
+          <li>Investir em tráfego pago para aquisição de novos clientes</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Case Navigation -->
+    <nav class="case-nav" aria-label="Navegação entre projetos">
+      <a href="oriente.html" class="case-nav__item">
+        <p class="case-nav__label">&larr; Anterior</p>
+        <p class="case-nav__title" style="color:var(--color-oriente);">Oriente</p>
+      </a>
+      <a href="chefs.html" class="case-nav__item">
+        <p class="case-nav__label">Próximo &rarr;</p>
+        <p class="case-nav__title" style="color:var(--color-chefs);">Chefs</p>
+      </a>
+    </nav>
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <p>Pedro Henrique Marques &copy; 2026 &mdash; <a href="mailto:pux4620@gmail.com">pux4620@gmail.com</a></p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

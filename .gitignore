@@ -1,0 +1,17 @@
+# Development files
+server.ps1
+.claude/
+PORTFOLIO_KNOWLEDGE_BASE.md
+
+# Source fonts (site uses Google Fonts CDN)
+FONTES/
+
+# Source PDFs (not used by website)
+Chef's apresentation.pdf
+estudo de caso da galeria.pdf
+Oriente UX Case Study.pdf
+
+# System files
+Thumbs.db
+.DS_Store
+desktop.ini
